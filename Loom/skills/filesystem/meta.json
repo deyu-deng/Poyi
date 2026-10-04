@@ -1,0 +1,20 @@
+{
+  "author": "Marvis",
+  "author_icon": "",
+  "description": "跨平台文件系统规则：约束 Agent 在所有文件操作中的路径、命名、目录结构行为。平台检测 + 决策树 + 自查机制。",
+  "detail_describe": "Agent 加载后自动检测操作系统，加载对应平台文件，按决策树执行文件读写/移动/创建等操作。包含 14 条核心陷阱教训、命名强制规则、项目脚手架标准、自更新机制和跨 skill 协同。",
+  "display_description": "文件系统操作规则：路径决策、命名规范、目录结构、跨平台适配",
+  "display_name": "filesystem",
+  "icon": "",
+  "name": "filesystem",
+  "scope": ["main"],
+  "type": "系统工具",
+  "use_cases": [
+    "文件放哪里",
+    "怎么命名",
+    "建项目目录",
+    "系统盘满了",
+    "文件结构检查"
+  ],
+  "version": "1.2.0"
+}

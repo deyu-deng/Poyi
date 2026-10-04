@@ -1,0 +1,26 @@
+{
+  "author": "Deng Deyu",
+  "author_icon": "",
+  "description": "学习复习自测刷题掌握度评估",
+  "detail_describe": "支持复习、自测、刷题、掌握度评估、费曼学习法等多种复习模式",
+  "display_description": "支持复习自测刷题费曼学习法等多种模式",
+  "display_name": "review",
+  "download_count": 0,
+  "download_url": "",
+  "icon": "",
+  "id": 1013,
+  "is_downloaded": false,
+  "last_modified_time": "2026-06-28 09:55:51",
+  "md5": "",
+  "name": "review",
+  "scope": [
+    "main"
+  ],
+  "type": "办公学习",
+  "use_cases": [
+    "帮我复习filesystem模块",
+    "自测一下这周学的内容",
+    "用费曼学习法讲一遍这个概念"
+  ],
+  "version": "1.0.0"
+}

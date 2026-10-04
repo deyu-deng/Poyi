@@ -1,0 +1,58 @@
+{
+  "version": "1.1.0",
+  "generated_at": "2026-10-04T00:00:00",
+  "scope": "/Users/sample",
+  "total_top_level": 3,
+  "depth_covered": 1,
+  "note": "示例设备映射：depth=0 根 + depth=1 一层。子目录未展开，需要更多信息时实时查询。",
+  "tree": {
+    "_meta": "/Users/sample（示例）",
+    "/Users/sample（示例）": {
+      "Projects": {
+        "path": "/Users/sample/Projects",
+        "depth": 0,
+        "note": "示例项目目录。",
+        "info": {
+          "exists": true,
+          "dirs_count": 2,
+          "files_count": 0
+        },
+        "children": {
+          "Demo-App": {
+            "path": "/Users/sample/Projects/Demo-App",
+            "depth": 1,
+            "note": "",
+            "info": {
+              "exists": true,
+              "dirs_count": 1,
+              "files_count": 3
+            },
+            "children": {}
+          }
+        }
+      },
+      "Documents": {
+        "path": "/Users/sample/Documents",
+        "depth": 0,
+        "note": "示例文档目录。",
+        "info": {
+          "exists": true,
+          "dirs_count": 3,
+          "files_count": 0
+        },
+        "children": {}
+      },
+      "Downloads": {
+        "path": "/Users/sample/Downloads",
+        "depth": 0,
+        "note": "示例下载目录。",
+        "info": {
+          "exists": true,
+          "dirs_count": 1,
+          "files_count": 4
+        },
+        "children": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "current_mode": "generic",
+  "switched_at": "2026-06-30T00:00:00",
+  "set_by": "user",
+  "description": "Default generic mode: sources/entities/concepts/sessions/comparisons/",
+  "history": [
+    {
+      "mode": "generic",
+      "set_at": "2026-06-30T00:00:00",
+      "reason": "initial scaffolding by Phase 1 wiki-mode skill bootstrap"
+    }
+  ]
+}

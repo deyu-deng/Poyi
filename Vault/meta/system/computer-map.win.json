@@ -1,0 +1,114 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-10-04T00:00:00",
+  "scope": "D:\\",
+  "total_top_level": 5,
+  "depth_covered": 1,
+  "note": "示例设备映射：depth=0 根 + depth=1 一层。子目录未展开，需要更多信息时实时查询。",
+  "tree": {
+    "_meta": "D:\\ 盘根目录（示例）",
+    "D:\\ 盘根目录（示例）": {
+      "Projects": {
+        "path": "D:\\Projects",
+        "depth": 0,
+        "note": "示例项目盘。",
+        "info": {
+          "exists": true,
+          "dirs_count": 3,
+          "files_count": 0
+        },
+        "children": {
+          "Demo-App": {
+            "path": "D:\\Projects/Demo-App",
+            "depth": 1,
+            "note": "",
+            "info": {
+              "exists": true,
+              "dirs_count": 2,
+              "files_count": 6
+            },
+            "children": {}
+          },
+          "Sample-Notes": {
+            "path": "D:\\Projects/Sample-Notes",
+            "depth": 1,
+            "note": "",
+            "info": {
+              "exists": true,
+              "dirs_count": 1,
+              "files_count": 4
+            },
+            "children": {}
+          }
+        }
+      },
+      "Cloud": {
+        "path": "D:\\Cloud",
+        "depth": 0,
+        "note": "示例同步盘。",
+        "info": {
+          "exists": true,
+          "dirs_count": 4,
+          "files_count": 0
+        },
+        "children": {
+          "Research": {
+            "path": "D:\\Cloud/Research",
+            "depth": 1,
+            "note": "",
+            "info": {
+              "exists": true,
+              "dirs_count": 2,
+              "files_count": 3
+            },
+            "children": {}
+          },
+          "Courses": {
+            "path": "D:\\Cloud/Courses",
+            "depth": 1,
+            "note": "",
+            "info": {
+              "exists": true,
+              "dirs_count": 6,
+              "files_count": 12
+            },
+            "children": {}
+          }
+        }
+      },
+      "Tools": {
+        "path": "D:\\Tools",
+        "depth": 0,
+        "note": "示例工具盘。",
+        "info": {
+          "exists": true,
+          "dirs_count": 2,
+          "files_count": 0
+        },
+        "children": {}
+      },
+      "Data": {
+        "path": "D:\\Data",
+        "depth": 0,
+        "note": "运行数据与缓存。",
+        "info": {
+          "exists": true,
+          "dirs_count": 5,
+          "files_count": 0
+        },
+        "children": {}
+      },
+      "Runtimes": {
+        "path": "D:\\Runtimes",
+        "depth": 0,
+        "note": "语言与运行时。",
+        "info": {
+          "exists": true,
+          "dirs_count": 2,
+          "files_count": 0
+        },
+        "children": {}
+      }
+    }
+  }
+}

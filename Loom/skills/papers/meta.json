@@ -1,0 +1,21 @@
+{
+  "author": "Marvis",
+  "author_icon": "",
+  "description": "科研文件管理 Skill。统一 Research/ 下所有课题的文件结构、命名、引用规范。",
+  "detail_describe": "统一科研文件管理，包括文献命名、文件夹结构、引用格式等规范。原 research-workflow + srtp-research-rules 已整合。",
+  "display_description": "科研文件管理与引用规范",
+  "display_name": "papers",
+  "icon": "",
+  "name": "papers",
+  "scope": ["main"],
+  "type": "办公学习",
+  "use_cases": [
+    "文献",
+    "论文",
+    "SRTP",
+    "科研",
+    "写论文",
+    "投稿"
+  ],
+  "version": "1.0.0"
+}

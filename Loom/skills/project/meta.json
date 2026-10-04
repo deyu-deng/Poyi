@@ -1,0 +1,20 @@
+{
+  "author": "Marvis",
+  "author_icon": "",
+  "description": "全周期项目生命周期管理：建项目脚手架 + 规划/进度/状态流转（open/close/pause/block/archive）。按类型选择对应模板，强制双根两层结构。",
+  "detail_describe": "全周期覆盖：new 建双根两层 + 注册、plan 深化蓝图、status 只读速报、update 追加进度、open/close/pause/block 状态流转、archive 归档（不改 status 不移动目录）。Sandbox/ 下的目录是用户主动维护的素材池，不主动清理。",
+  "display_description": "全周期项目管理（建项目/状态/进度/归档）",
+  "display_name": "project",
+  "icon": "",
+  "name": "project",
+  "scope": ["main"],
+  "type": "办公学习",
+  "use_cases": [
+    "建项目",
+    "项目状态",
+    "更新进度",
+    "归档项目",
+    "/project"
+  ],
+  "version": "3.0.0"
+}

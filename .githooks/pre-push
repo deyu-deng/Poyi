@@ -1,0 +1,29 @@
+#!/bin/sh
+# Poyi pre-push 远程前最终防线 (verifier --strict)
+# 与 pre-commit 的区别：pre-commit 只阻断 BLOCKER；pre-push 用 --strict
+# 模式额外将 WARN 也升级为阻断，防止把"带病但非致命"的提交推到远程污染历史。
+#
+# 紧急跳过（不推荐）：git push --no-verify
+
+ROOT=$(git rev-parse --show-toplevel)
+VERIFIER="$ROOT/Loom/scripts/verifier.py"
+
+if [ -f "$VERIFIER" ]; then
+  # 同 pre-commit：商店假别名 python3 能被 command -v 找到但跑不动，必须真跑一次才认
+  PY=""
+  for c in python3 python py; do
+    if command -v "$c" >/dev/null 2>&1 && "$c" -c "pass" >/dev/null 2>&1; then PY="$c"; break; fi
+  done
+  if [ -z "$PY" ]; then
+    echo "❌ 未找到可用的 python 解释器（python3/python/py），无法运行 verifier。"
+    exit 1
+  fi
+  if ! PYTHONIOENCODING=utf-8 "$PY" "$VERIFIER" --strict; then
+    echo ""
+    echo "❌ pre-push 校验未通过：存在 BLOCKER 或 WARN 条目，推送已阻断。"
+    echo "   请修复上方 🔴/🟡 条目后重新 git push。"
+    echo "   紧急跳过（不推荐）: git push --no-verify"
+    exit 1
+  fi
+fi
+exit 0

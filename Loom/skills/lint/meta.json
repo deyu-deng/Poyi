@@ -1,0 +1,26 @@
+{
+  "author": "Deng Deyu",
+  "author_icon": "",
+  "description": "代码与文档规范检查风格审查",
+  "detail_describe": "对代码和文档进行规范检查和风格审查",
+  "display_description": "对代码和文档进行规范检查和风格审查",
+  "display_name": "lint",
+  "download_count": 0,
+  "download_url": "",
+  "icon": "",
+  "id": 1005,
+  "is_downloaded": false,
+  "last_modified_time": "2026-06-28 09:55:51",
+  "md5": "",
+  "name": "lint",
+  "scope": [
+    "main"
+  ],
+  "type": "办公学习",
+  "use_cases": [
+    "检查这段代码规范",
+    "审查这个文档格式",
+    "统一代码风格"
+  ],
+  "version": "1.0.0"
+}

@@ -1,0 +1,83 @@
+# ============================================
+# Poyi GitIgnore（覆盖 Loom + Vault）
+# ============================================
+
+# Obsidian 本地设置（不同设备不同）
+Loom/.obsidian/
+.obsidian/
+
+# Claude Code 会话记录
+Loom/.claude/sessions/
+Loom/.claudian/sessions/
+
+# Beacon SDK
+Loom/.beacon/
+
+# Agent 临时写入
+Loom/_Inbox/
+
+# 临时文件
+*.tmp
+*.log
+*.bak
+
+# Python 缓存
+__pycache__/
+
+# 聚合/采集运行日志（collect_mac.sh + launchd 输出，本机运行产物不入仓）
+Loom/scripts/logs/
+
+# === 原始数据一律本地（Poyi 是公开仓库，对话数据永不入库）===
+# 2026-10-04：Loom/raw 全量出仓（含此前仍跟踪的 digested/ 111 个真实对话摘要）。
+# 采集/聚合/消化产物只在本机存在，跨机同步走云盘，不走 Git。
+Loom/raw/
+Loom/.claudian/
+
+# 旧目录名遗留路径（chat-logs 已改名 chatlog，保留规则防旧任务误写）
+Loom/raw/chat-logs/
+Loom/chat-logs/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 审计/回滚护栏产物（编辑引擎的幂等账本，本机写入，不入库）
+# 注：管线脚本目前在 .audit-backup-2026-08-20/ 暂存，恢复后生效
+**/_applied.json
+**/_claim_ledger.json
+**/_source_ledger.json
+# 本地审计备份目录（含未入库的管线原件副本）
+.audit-backup-*/
+
+# === social 原始数据（private，不进 git）===
+# IM 类源（wechat/dingtalk）含私人聊天，按 data-sources.json 隐私分级为 private。
+# 仅 README 作为采集说明入仓；exports/digested/media 等运行产物不入仓。
+Loom/raw/social/*
+!Loom/raw/social/README.md
+
+# 平台与设备绑定配置 (不进行 Git 同步)
+.claudian
+.UTSystemConfig/
+.agents/
+start_poyi.ps1
+
+
+# Machine-local agent config (moved from Documents)
+.claude/
+.beacon/
+
+# WorkBuddy agent config
+.workbuddy/
+
+# 检索索引与编译产物为本地构建物，不入库（含 wiki 全文分词，公开仓库不该带）
+Loom/wiki/.retrieve-bm25/
+
+# 本机真实标识（群号/wxid/组织名），公开仓库不入库
+Loom/skills/daily/data/identity.local.json
+**/*.local.json
+
+# 文档快照索引：无生成器在场且内嵌全文摘录，公开仓库不入库
+Loom/meta/inventory.json
+
+# 历史重写前的完整旧历史备份（本机保留，勿提交、勿分发）
+.history-backup*/

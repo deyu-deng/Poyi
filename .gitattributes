@@ -1,0 +1,13 @@
+# Normalize line endings across platforms (macOS/Linux = LF, Windows = CRLF in working tree)
+# All text files use LF in the repository; Git converts to CRLF on Windows checkout.
+* text=auto eol=lf
+
+# Binary files — no line-ending conversion
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.canvas binary
+*.opml binary

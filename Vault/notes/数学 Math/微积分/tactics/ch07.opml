@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>第七章 无穷级数 - 解题技巧决策树</title>
+  </head>
+  <body>
+    <outline text="第七章 无穷级数">
+      <outline text="7.1 常数项级数的敛散性判别决策树">
+        <outline text="第一步：通项极限检验（必要条件检验）">
+          <outline text="计算通项在 n 趋于无穷时的极限：$$\lim_{n \to \infty} a_n$$">
+            <outline text="若极限不等于 0 或极限不存在，则级数必发散" />
+            <outline text="【陷阱】核心易错点：千万不要看到通项极限等于 0 就直接判断级数收敛" />
+            <outline text="【反例】调和级数 $$\sum_{n=1}^{\infty} \frac{1}{n}$$ 的通项在 n 趋于无穷时极限为 0，但该级数是发散的" />
+            <outline text="若极限等于 0，则无法断定敛散性，必须进入下一步深入判别" />
+          </outline>
+        </outline>
+        <outline text="第二步：根据级数项的符号特征选择判别路径">
+          <outline text="路径A：正项级数（满足所有项 $$a_n \ge 0$$）">
+            <outline text="先观察是否可以转化为标准常考级数">
+              <outline text="几何级数 $$\sum q^n$$：当 $$|q| \lt 1$$ 时收敛，当 $$|q| \ge 1$$ 时发散" />
+              <outline text="p-级数 $$\sum \frac{1}{n^p}$$：当 $$p \gt 1$$ 时收敛，当 $$p \le 1$$ 时发散" />
+            </outline>
+            <outline text="特征1：通项中含有阶乘 $$n!$$ 或指数 $$a^n$$ 结构，优先尝试使用比值判别法（达朗贝尔法）">
+              <outline text="计算相邻项比值的极限：$$L = \lim_{n \to \infty} \frac{a_{n+1}}{a_n}$$">
+                <outline text="若 $$L \lt 1$$，则级数绝对收敛" />
+                <outline text="若 $$L \gt 1$$ 或极限为正无穷，则级数发散" />
+                <outline text="若 $$L = 1$$，则比值判别法失效，必须改用比较判别法或积分判别法" />
+                <outline text="【陷阱】比值法极限为 1 失效的典型对象是所有 p-级数和有理分式级数" />
+              </outline>
+            </outline>
+            <outline text="特征2：通项整体带有 n 次方结构 $$(...)^n$$，优先尝试使用根值判别法（柯西法）">
+              <outline text="计算通项开 n 次方后的极限：$$L = \lim_{n \to \infty} \sqrt[n]{a_n}$$">
+                <outline text="若 $$L \lt 1$$，则级数绝对收敛" />
+                <outline text="若 $$L \gt 1$$ 或极限为正无穷，则级数发散" />
+              </outline>
+            </outline>
+          </outline>
+        </outline>
+      </outline>
+    </outline>
+  </body>
+</opml>

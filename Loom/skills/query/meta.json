@@ -1,0 +1,26 @@
+{
+  "author": "Deng Deyu",
+  "author_icon": "",
+  "description": "智能查询与多源信息整合问答",
+  "detail_describe": "基于知识库的智能问答，支持多源信息整合",
+  "display_description": "基于知识库的智能问答支持多源信息整合",
+  "display_name": "query",
+  "download_count": 0,
+  "download_url": "",
+  "icon": "",
+  "id": 1011,
+  "is_downloaded": false,
+  "last_modified_time": "2026-06-28 09:55:51",
+  "md5": "",
+  "name": "query",
+  "scope": [
+    "main"
+  ],
+  "type": "办公学习",
+  "use_cases": [
+    "查一下这个项目的背景",
+    "回答关于代码库的问题",
+    "帮我理解这段代码"
+  ],
+  "version": "1.0.0"
+}

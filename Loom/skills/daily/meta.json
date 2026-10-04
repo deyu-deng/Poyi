@@ -1,0 +1,20 @@
+{
+  "author": "Marvis",
+  "author_icon": "",
+  "description": "消息中枢：聚合消息扫描、热点雷达、机会挖掘三个子模块。加载本 skill 后，Agent 按用户意图路由到对应子模块。",
+  "detail_describe": "聚合消息中枢，包含三个子模块：消息扫描（message-digest）、热点雷达（info-radar）、机会挖掘（opportunity-scout）。根据用户意图自动路由。",
+  "display_description": "消息中枢：扫描、热点、机会挖掘",
+  "display_name": "daily",
+  "icon": "",
+  "name": "daily",
+  "scope": ["main"],
+  "type": "办公学习",
+  "use_cases": [
+    "待办",
+    "热点",
+    "机会",
+    "今日要做",
+    "今天有什么活动"
+  ],
+  "version": "1.4.0"
+}

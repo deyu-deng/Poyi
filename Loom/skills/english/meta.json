@@ -1,0 +1,26 @@
+{
+  "author": "Deng Deyu",
+  "author_icon": "",
+  "description": "英语学习语料管理与表达查询",
+  "detail_describe": "管理单词和句型语料本，提供英语表达查询和学习辅助",
+  "display_description": "管理单词和句型语料本提供英语学习辅助",
+  "display_name": "english",
+  "download_count": 0,
+  "download_url": "",
+  "icon": "",
+  "id": 1000,
+  "is_downloaded": false,
+  "last_modified_time": "2026-06-28 09:55:51",
+  "md5": "",
+  "name": "english",
+  "scope": [
+    "main"
+  ],
+  "type": "办公学习",
+  "use_cases": [
+    "这个英语怎么表达",
+    "帮我翻译这段话",
+    "记录这个单词到语料本"
+  ],
+  "version": "1.0.0"
+}

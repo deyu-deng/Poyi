@@ -1,0 +1,26 @@
+{
+  "author": "Deng Deyu",
+  "author_icon": "",
+  "description": "深度思考结构化推理辅助",
+  "detail_describe": "帮助进行结构化思考、问题分解和多角度分析",
+  "display_description": "帮助结构化思考问题分解和多角度分析",
+  "display_name": "think",
+  "download_count": 0,
+  "download_url": "",
+  "icon": "",
+  "id": 1015,
+  "is_downloaded": false,
+  "last_modified_time": "2026-06-28 09:55:51",
+  "md5": "",
+  "name": "think",
+  "scope": [
+    "main"
+  ],
+  "type": "办公学习",
+  "use_cases": [
+    "帮我分析这个问题的利弊",
+    "梳理一下决策方案",
+    "结构化思考这个需求"
+  ],
+  "version": "1.0.0"
+}

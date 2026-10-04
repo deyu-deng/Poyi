@@ -1,0 +1,26 @@
+{
+  "author": "Deng Deyu",
+  "author_icon": "",
+  "description": "个人思维与知识图谱构建",
+  "detail_describe": "构建和维护个人知识体系，记录概念关联和思维脉络",
+  "display_description": "构建和维护个人知识体系记录概念关联",
+  "display_name": "poyi",
+  "download_count": 0,
+  "download_url": "",
+  "icon": "",
+  "id": 1006,
+  "is_downloaded": false,
+  "last_modified_time": "2026-06-28 09:55:51",
+  "md5": "",
+  "name": "poyi",
+  "scope": [
+    "main"
+  ],
+  "type": "办公学习",
+  "use_cases": [
+    "记录一个新的知识概念",
+    "这个知识点和什么相关",
+    "帮我梳理知识脉络"
+  ],
+  "version": "1.0.0"
+}

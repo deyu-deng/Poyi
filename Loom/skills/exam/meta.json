@@ -1,0 +1,18 @@
+{
+  "author": "Marvis",
+  "author_icon": "",
+  "description": "从微信公众号收集历年试卷，OCR 提取题目，AI 自行解答，生成统一排版的 LaTeX PDF 文档。",
+  "detail_describe": "从微信公众号收集历年试卷，OCR 提取题目，AI 自行解答，生成统一排版的 LaTeX PDF 文档。触发词：'收集试卷'、'历年卷'、'OCR 试卷'。",
+  "display_description": "收集历年试卷并生成 LaTeX PDF",
+  "display_name": "exam",
+  "icon": "",
+  "name": "exam",
+  "scope": ["main"],
+  "type": "办公学习",
+  "use_cases": [
+    "收集历年试卷",
+    "生成历年卷 PDF",
+    "OCR 试卷并解答"
+  ],
+  "version": "1.0.0"
+}

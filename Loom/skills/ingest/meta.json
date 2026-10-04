@@ -1,0 +1,26 @@
+{
+  "author": "Deng Deyu",
+  "author_icon": "",
+  "description": "外部内容摄入与格式化转换",
+  "detail_describe": "从外部来源摄取内容并转换为标准内部格式",
+  "display_description": "从外部来源摄取内容并转换为标准内部格式",
+  "display_name": "ingest",
+  "download_count": 0,
+  "download_url": "",
+  "icon": "",
+  "id": 1004,
+  "is_downloaded": false,
+  "last_modified_time": "2026-06-28 09:55:51",
+  "md5": "",
+  "name": "ingest",
+  "scope": [
+    "main"
+  ],
+  "type": "办公学习",
+  "use_cases": [
+    "导入这篇外部文章",
+    "把这个网页内容格式化",
+    "摄入这个资料"
+  ],
+  "version": "1.0.0"
+}

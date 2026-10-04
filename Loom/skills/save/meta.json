@@ -1,0 +1,26 @@
+{
+  "author": "Deng Deyu",
+  "author_icon": "",
+  "description": "对话内容保存与知识点归档",
+  "detail_describe": "将对话中有价值的内容自动保存到对应知识库位置",
+  "display_description": "将对话中有价值的内容自动保存到知识库",
+  "display_name": "save",
+  "download_count": 0,
+  "download_url": "",
+  "icon": "",
+  "id": 1014,
+  "is_downloaded": false,
+  "last_modified_time": "2026-06-28 09:55:51",
+  "md5": "",
+  "name": "save",
+  "scope": [
+    "main"
+  ],
+  "type": "办公学习",
+  "use_cases": [
+    "把这段保存到笔记",
+    "归档这个讨论结论",
+    "保存这个代码片段"
+  ],
+  "version": "1.0.0"
+}

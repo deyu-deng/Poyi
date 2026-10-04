@@ -1,0 +1,18 @@
+{
+  "author": "Marvis",
+  "author_icon": "",
+  "description": "统一的用户画像 skill。从各子模块提取，作为唯一权威来源。被 inbox 等 skill 引用。",
+  "detail_describe": "从 message-digest / info-radar / opportunity-scout 三个 skill 中提取用户画像信息，作为唯一权威来源。",
+  "display_description": "统一用户画像管理与引用",
+  "display_name": "profile",
+  "icon": "",
+  "name": "profile",
+  "scope": ["main"],
+  "type": "办公学习",
+  "use_cases": [
+    "用户画像",
+    "我的偏好",
+    "个人信息"
+  ],
+  "version": "1.0.0"
+}

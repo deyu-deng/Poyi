@@ -1,0 +1,18 @@
+{
+  "author": "Marvis",
+  "author_icon": "",
+  "description": "北屿大学校园自动化脚本集：自动签到（学在北屿大学雷达+数字签到）、作业待办、课程素材下载、图书续借等。",
+  "detail_describe": "基于 Beiyu-live-better 项目，启动 autosign.js 实现课堂自动签到（每4秒轮询，雷达签到+数字签到暴力破解）。包含 todolist.js（作业待办）、materialDown.js（课程素材下载）、bookList.js（图书续借）等辅助脚本。",
+  "display_description": "北屿大学校园自动化脚本集",
+  "display_name": "campus",
+  "icon": "",
+  "name": "campus",
+  "scope": ["main"],
+  "type": "办公学习",
+  "use_cases": [
+    "启动上课签到",
+    "帮我签到",
+    "启动自动签到守护"
+  ],
+  "version": "1.0.0"
+}
